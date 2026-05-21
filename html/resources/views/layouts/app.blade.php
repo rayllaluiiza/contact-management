@@ -26,10 +26,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">Home</a>
+                <a class="nav-link active" aria-current="page" href="{{ route('index') }}">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">New Contact</a>
+                <a class="nav-link" href="{{ route('contacts.create') }}">New Contact</a>
             </li>
         </ul>
         </div>

@@ -36,11 +36,7 @@
     </div>
     </nav>
 
-    <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid">
-            <span class="navbar-brand mb-0 h1">@yield('title')</span>
-        </div>
-    </nav>
+    <div class="navbar-brand mb-4 mt-4 fs-2 text-center w-100">@yield('title')</div>
 
     <main>
         @yield('content')

@@ -22,8 +22,8 @@
                 <th scope="col">Name</th>
                 <th scope="col">Contact</th>
                 <th scope="col">Email</th>
-                <th scope="col">Edit</th>
                 <th scope="col">View</th>
+                <th scope="col">Edit</th>
                 <th scope="col">Delete</th>
             </tr>
         </thead>
